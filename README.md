@@ -1,7 +1,7 @@
 <!-- Designed as a set of light/dark SVGs in ./assets; the visible page follows the viewer's GitHub theme.
      Stats and snake are regenerated daily by .github/workflows/profile-assets.yml onto the `output` branch. -->
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><img alt="Ashutosh Kumar Singh — Software Engineer. Secure by design. Driven by data." src="assets/hero-light.svg" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><img alt="Ashutosh Kumar Singh — AI Engineer. Secure by design. Driven by data." src="assets/hero-light.svg" width="100%"></picture>
 
 <br><br>
 
