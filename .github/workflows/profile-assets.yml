@@ -28,8 +28,11 @@ jobs:
         with:
           python-version: "3.12"
 
+      # snk writes dist/ as root, so assemble the published files in a runner-owned folder.
       - name: Stats card
-        run: python .github/scripts/stats.py dist
+        run: |
+          python .github/scripts/stats.py out
+          cp dist/*.svg out/
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_LOGIN: ${{ github.repository_owner }}
@@ -38,7 +41,7 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
-          build_dir: dist
+          build_dir: out
           commit_message: Update profile assets
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
