@@ -1,0 +1,44 @@
+name: Profile assets
+
+on:
+  schedule:
+    - cron: "0 1 * * *" # daily, 06:30 IST
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-light.svg?color_snake=#0071e3&color_dots=#ebedf0,#c7d2fe,#93a5fb,#8b5cf6,#d946ef
+            dist/snake-dark.svg?color_snake=#bf5af2&color_dots=#1c1c1e,#1e3a8a,#2563eb,#7c3aed,#c026d3
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Stats card
+        run: python .github/scripts/stats.py dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_LOGIN: ${{ github.repository_owner }}
+
+      - name: Publish to the output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: Update profile assets
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
