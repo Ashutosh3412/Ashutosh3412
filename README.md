@@ -7,6 +7,10 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/work-dark.svg"><img alt="Selected work." src="assets/work-light.svg" width="100%"></picture>
 
+<a href="https://github.com/Ashutosh3412/BIRD_ID"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/featured-birdid-dark.svg"><img alt="BirdID — identify birds by photo or call; live demo" src="assets/featured-birdid-light.svg" width="100%"></picture></a>
+
+<p align="center"><a href="https://birdid-umber.vercel.app"><b>Live demo ↗</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/Ashutosh3412/BIRD_ID">Source</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://mohitrks-birdid-api.hf.space/docs">API docs</a></p>
+
 <p>
 <a href="https://github.com/Ashutosh3412/ciphershare-secure-file-sharing"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-ciphershare-dark.svg"><img alt="CipherShare — recipient-only file sharing with AES-256-GCM and RSA-OAEP" src="assets/card-ciphershare-light.svg" width="49.8%"></picture></a><a href="https://github.com/Ashutosh3412/basketiq-market-basket-analysis"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-basketiq-dark.svg"><img alt="BasketIQ — market basket analysis with Apriori association rules" src="assets/card-basketiq-light.svg" width="49.8%"></picture></a>
 </p>

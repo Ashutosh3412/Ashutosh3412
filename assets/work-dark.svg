@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="150" viewBox="0 0 1280 150" role="img" aria-label="Selected work. Built end to end, from the cryptographic core to the interface." fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="150" viewBox="0 0 1280 150" role="img" aria-label="Selected work. Built end to end, from the model and the cryptography to the interface." fill="none">
 <style>text{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','SF Pro Text','Inter','Segoe UI',Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}.t{fill:#f5f5f7}.s{fill:#86868b}</style>
 <defs></defs>
-<text x="4" y="78" font-size="54" font-weight="700" letter-spacing="-1.6" class="t">Selected work.</text><text x="4" y="124" font-size="25" class="s">Built end to end, from the cryptographic core to the interface.</text>
+<text x="4" y="78" font-size="54" font-weight="700" letter-spacing="-1.6" class="t">Selected work.</text><text x="4" y="124" font-size="25" class="s">Built end to end, from the model and the cryptography to the interface.</text>
 </svg>
