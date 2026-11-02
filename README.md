@@ -15,6 +15,8 @@
 <a href="https://github.com/Ashutosh3412/ciphershare-secure-file-sharing"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-ciphershare-dark.svg"><img alt="CipherShare — recipient-only file sharing with AES-256-GCM and RSA-OAEP" src="assets/card-ciphershare-light.svg" width="49.8%"></picture></a><a href="https://github.com/Ashutosh3412/basketiq-market-basket-analysis"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-basketiq-dark.svg"><img alt="BasketIQ — market basket analysis with Apriori association rules" src="assets/card-basketiq-light.svg" width="49.8%"></picture></a>
 </p>
 
+<p align="center"><a href="https://github.com/Ashutosh3412/ciphershare-secure-file-sharing"><b>CipherShare Source ↗</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/Ashutosh3412/basketiq-market-basket-analysis"><b>BasketIQ Source ↗</b></a></p>
+
 <br>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ashutosh3412/Ashutosh3412/output/stats-dark.svg"><img alt="By the numbers: contributions, commits, active days and repositories, updated daily" src="https://raw.githubusercontent.com/Ashutosh3412/Ashutosh3412/output/stats-light.svg" width="100%"></picture>
